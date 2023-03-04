@@ -7,7 +7,6 @@ export interface IActor {
   filmsCount: number,
   age: string,
   languages: string[],
-
 };
 
 // 1)

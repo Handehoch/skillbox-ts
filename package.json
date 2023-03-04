@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:1": "ts-node module-1.ts",
-    "start:2": "ts-node module-2.ts",
+    "start:1": "ts-node ./src/module-1.ts",
+    "start:2": "ts-node ./src/module-2.ts",
+    "start:3": "ts-node ./src/module-3.ts",
     "build": "tsc"
   },
   "keywords": [],
