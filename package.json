@@ -7,7 +7,9 @@
     "start:1": "ts-node ./src/module-1.ts",
     "start:2": "ts-node ./src/module-2.ts",
     "start:3": "ts-node ./src/module-3.ts",
-    "start:4task1": "ts-node ./src/module-4/task-1/index-4.ts",
+    "start:4-task1": "ts-node ./src/module-4/task-1/index-4.ts",
+    "start:5-task-1": "ts-node ./src/module-5/task-1.ts",
+    "start:5-task-2": "ts-node ./src/module-5/task-2.ts",
     "build": "tsc"
   },
   "keywords": [],
