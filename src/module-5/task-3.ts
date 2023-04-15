@@ -19,7 +19,7 @@ class MyArray<T> {
 
   removeAt(index: number): void {
     if (index >= 0 && index < this.elements.length) {
-      this.elements = [...this.elements.slice(0, index), ...this.elements.slice(index + 1)];
+      this.elements = this.elements.splice(index,1);
     } else {
       throw new Error(`Index ${index} is out of range`);
     }
